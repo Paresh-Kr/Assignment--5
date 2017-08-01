@@ -1,6 +1,6 @@
 package fileProcessorDecorator.driver;
 
-import fileProcessorDecorator.util.FileProcessor;
+import fileProcessorDecorator.fileOperations.FileProcessor;
 import fileProcessorDecorator.util.Results;
 
 public class Driver 
