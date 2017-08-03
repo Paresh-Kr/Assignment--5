@@ -52,6 +52,7 @@
 <target name="run" depends="jar">
         <java jar="${BUILD}/jar/fileProcessorDecorator.jar"  fork="true">
 		<arg value="${arg0}"/>
+                <arg value="${arg1}"/>
         </java>
 	
     </target>

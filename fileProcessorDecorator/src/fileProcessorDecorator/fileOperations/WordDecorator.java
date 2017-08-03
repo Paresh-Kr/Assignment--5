@@ -1,10 +1,16 @@
 package fileProcessorDecorator.fileOperations;
 
-public  class WordDecorator extends FileProcessorAbstractBase
+public  class WordDecorator extends SentenceDecorator
 {
 	
-	public WordDecorator()
+	public WordDecorator(InputDetails idtl)
 	{
+		super(idtl);
+	}
+	
+	public String  getiFile()
+	{
+		return super.getiFile();
 		
 	}
 

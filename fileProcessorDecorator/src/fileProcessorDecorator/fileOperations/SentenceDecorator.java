@@ -1,13 +1,20 @@
 package fileProcessorDecorator.fileOperations;
 
-public  class SentenceDecorator extends FileProcessorAbstractBase
+public  class SentenceDecorator extends ParagraphDecorator
 {
 	
-	public SentenceDecorator()
+	public SentenceDecorator(InputDetails idtl)
 	{
-		
+		super(idtl);
+
 	}
 	
+	public String  getiFile()
+	{
+		return super.getiFile();
+		
+	}
+
 
 	@Override
 	public String processFileData(InputDetails inputdtl) {
