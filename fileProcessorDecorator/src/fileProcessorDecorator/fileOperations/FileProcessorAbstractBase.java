@@ -26,6 +26,7 @@ public abstract class FileProcessorAbstractBase implements InputDetails
 	{
 		
 		Inputfile=inputdtl.getiFile();
+    	//System.out.println("Input file===="+Inputfile);
         String result=readfile(Inputfile);
     	//System.out.println("Reult -----"+result);
       return result;
